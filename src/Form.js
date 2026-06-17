@@ -1,12 +1,20 @@
-import React from 'react';
-
-function Navbar() {
+function Form() {
   return (
     <div>
-      <h2>My React Project</h2>
-      <hr />
+      <h3>Student Form</h3>
+
+      <input
+        type="text"
+        placeholder="Enter Name"
+      />
+
+      <br /><br />
+
+      <button>
+        Submit
+      </button>
     </div>
   );
 }
 
-export default Navbar;
+export default Form;
